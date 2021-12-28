@@ -3,6 +3,4 @@ node_modules
 /.vscode
 /.cache
 .parcel-cache
-
-
-/* --out-dir dist --public-url ./ */
+dist

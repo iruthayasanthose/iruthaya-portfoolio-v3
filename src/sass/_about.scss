@@ -1,0 +1,32 @@
+.about {
+  grid-column: 2/14;
+  padding: 6rem;
+
+  &-box__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 4rem;
+    color: $black;
+    margin-top: 6rem;
+  }
+
+  &-box {
+    padding: 2rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &-img {
+    width: 25em;
+    height: 25em;
+  }
+}
+.abt-cnt {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 20px;
+  letter-spacing: 0.1rem;
+}

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "rm -rf ./development && rm -rf ./.cache && parcel src/index.html --out-dir development -p 3000",
-    "build": "parcel build src/index.js --out-dir dist --public-url ./"
+    "build": "parcel build src/index.js dist --public-url ./"
   },
   "keywords": [],
   "author": "",
